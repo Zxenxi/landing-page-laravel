@@ -1,0 +1,67 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 5rem 1rem;
+    padding: 10rem 1rem;
+  }
+
+  .contact-section .text h3{
+    font-size: 3em;
+  }
+  .form-kontak {
+    max-width: 400px;
+  }
+
+  .form-kontak input[type="text"],
+  .form-kontak textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-kontak input[type="button"] {
+    background-color: #EE3224;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-kontak input[type="button"]:hover {
+    background-color: #000000;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 15rem 2rem;
+  }
+
+
+  @media screen and (max-width:576px) {
+    .contact-section{
+        flex-direction: column;
+      }
+
+      .contact-section .text h3{
+        font-size: 1.7em;
+        gap: 2rem;
+        padding: 0;
+        margin: 0;
+      }
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .contact-section{
+        flex-direction: column;
+      }
+}

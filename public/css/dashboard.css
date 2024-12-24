@@ -1,0 +1,59 @@
+.dashboard{
+    height: 100%;
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.dashboard nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.dashboard nav ul li{
+    max-width: 15rem;
+    padding: 0.5rem;
+    height: 2rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard nav ul li a{
+    width: 100%;
+}
+
+.table{
+    height: 30rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+table,tr,th,td {
+    border:1px solid black;
+    padding: 1rem 2rem;
+}
+table th{
+    min-width: 5rem;
+    max-width: 30rem;
+}
+
+
+
+.table button{
+    width: 10rem;
+}
+
+.table button:nth-of-type(1){
+    background-color: #DCFFB7;
+    padding: 0.5rem 2rem;
+}
+
+.table button:nth-of-type(2){
+    background-color: #FF6868;
+    padding: 0.5rem 2rem;
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PoppinsMedium', sans-serif;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('/fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: #EE3224;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width:576px) {
+    footer p{
+        font-size: 0.8em;
+      }
+}

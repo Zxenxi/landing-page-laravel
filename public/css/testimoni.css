@@ -1,0 +1,79 @@
+.testimoni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 5rem 0;
+    padding: 10rem 0;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    
+}
+
+.testimoni-slider{
+    overflow-x: hidden;
+}
+/* Gaya untuk swiper container */
+.swiper-container {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Untuk Chrome, Safari, dan Opera */
+.swiper-container::-webkit-scrollbar {
+    display: none; /* Menyembunyikan scrollbar */
+  }
+  
+  
+  /* Gaya untuk setiap slide */
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Gaya untuk testimoni */
+  .testimonial {
+    width: calc(100% - 2rem); /* Lebar testimoni dikurangi margin kiri dan kanan */
+    max-width: 20rem; /* Lebar maksimum testimoni */
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(181, 190, 202, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(181, 190, 202, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(181, 190, 202, 0.75);
+  }
+  
+  .author {
+    display: block;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+@media screen and (max-width:576px) {
+    .swiper-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 350px;
+      }
+
+      .testimoni p{
+        font-size: 0.8em;
+      }
+
+      .testimoni{
+        margin: 0;
+        padding: 0 0 3rem 0;
+      }
+}
