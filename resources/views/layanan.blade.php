@@ -1,42 +1,34 @@
-<section class="layanan-section" id="layanan">
-    <div class="layanan">
-        <h1>Layanan Kami</h1>
+<section class="tentang-section" id="tentang">
+    <div class="tentang">
+        <h1>Tentang Perusahaan</h1>
+        <p>Izuzu Music Percussion adalah perusahaan home industri yang bergerak di bidang pembuatan alat musik, baik modern maupun tradisional. Berdiri dengan komitmen tinggi terhadap kualitas dan keindahan, perusahaan ini melayani pembuatan alat musik untuk berbagai kebutuhan, seperti drum band, marching band, hadroh, gamelan, kolintang, hingga angklung. Dengan keahlian tangan para pengerajin lokal yang berpengalaman, Izuzu Music Percussion menghadirkan produk yang menggabungkan kualitas suara, estetika, dan ketahanan.</p>
     </div>
-    <div class="card-layanan">
-        <div class="card">
-            <div class="number">
-                <p>#satu</p>
-            </div>
-            <div class="title">
-                <h2>Peminjaman</h2>
-            </div>
-            <div class="description">
-                <p>Peminjaman alat marching band untuk acara sekolah, festival, atau kompetisi musik dengan beragam pilihan peralatan berkualitas tinggi. </p>
-            </div>
+    <br><br>
+    <div class="visi-misi">
+        <div class="visi">
+            <h2>Visi</h2>
+            <p>Menjadi produsen alat musik unggulan yang mendukung pelestarian seni budaya lokal sekaligus memenuhi kebutuhan musik modern.</p>
         </div>
-        <div class="card">
-            <div class="number">
-                <p>#dua</p>
-            </div>
-            <div class="title">
-                <h2>Penyewaan</h2>
-            </div>
-            <div class="description">
-                <p>Penyewaan alat marching band yang fleksibel dengan harga terjangkau untuk keperluan berbagai acara dan pertunjukan musik</p>
-            </div>
+        <div class="misi">
+            <h2>Misi</h2>
+            <ul>
+                <li>Menghasilkan alat musik berkualitas tinggi.</li>
+                <li>Melestarikan seni dan budaya lokal melalui produksi alat musik tradisional.</li>
+                <li>Memberikan pelayanan terbaik kepada pelanggan dengan harga yang kompetitif.</li>
+            </ul>
         </div>
-        <div class="card">
-            <div class="number">
-                <p>#tiga</p>
-            </div>
-            <div class="title">
-                <h2>Penjualan</h2>
-            </div>
-            <div class="description">
-                <p>Jual alat marching band berkualitas tinggi dengan berbagai pilihan produk terbaru dan tersedia dalam kondisi yang prima.</p>
-            </div>
-        </div>
+    </div>
+    <div class="kontak">
+        <h2>Alamat dan Kontak</h2>
+        <p><strong>Alamat:</strong> Dukuh Sidonalan RT 001/ RW 001, Sidomukti, Ambal, Kebumen, Jawa Tengah</p>
+        <p><strong>Telepon:</strong> 081915000904</p>
+        <p><strong>Email:</strong> izuzumusicpercussion@gmail.com</p>
+        <p><strong>Media Sosial:</strong> 
+            <a href="https://www.instagram.com/izuzumusicpercussion" target="_blank">Instagram</a> | 
+            <a href="https://www.facebook.com/Izuzumusicpercussion" target="_blank">Facebook</a> | 
+            <a href="https://www.tiktok.com/@izuzumusicpercussion.com" target="_blank">TikTok</a>
+        </p>
     </div>
 </section>
 
-<link rel="stylesheet" href="{{ asset('css/layanan.css') }}">
+<link rel="stylesheet" href="{{ asset('css/tentang.css') }}">

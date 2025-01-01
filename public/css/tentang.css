@@ -1,0 +1,101 @@
+.tentang-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.tentang,
+.visi-misi,
+.kontak {
+    margin-bottom: 20px;
+}
+
+.tentang h1,
+.visi h2,
+.misi h2,
+.kontak h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.visi-misi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.visi,
+.misi {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.misi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.kontak p {
+    margin: 5px 0;
+}
+
+.kontak a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.kontak a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .visi-misi {
+        grid-template-columns: 1fr;
+    }
+}
+.tentang-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi halaman penuh */
+    background-color: #f4f4f4; /* Warna latar opsional */
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center; /* Semua teks di tengah */
+}
+
+.kontak {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Batasi lebar */
+    width: 90%; /* Supaya fleksibel di layar kecil */
+}
+
+.kontak h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.kontak p {
+    margin: 10px 0;
+}
+
+.kontak a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kontak a:hover {
+    text-decoration: underline;
+}

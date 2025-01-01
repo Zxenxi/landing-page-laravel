@@ -17,16 +17,17 @@
             <div class="product">
                 <h1>Hadroh</h1>
             </div>
+            <img src="{{asset('images/hadroh.png')  }}" alt="" srcset="">
             <div class="card-product">
                 <div class="card">
                     <div class="number">
                         <p>#satu</p>
                     </div>
-                    <div class="img">
-                        <img src="{{ asset('images/snare.png') }}" alt="snare">
-                    </div>
+                    {{-- <div class="img"> --}}
+                        {{-- <img src="{{ asset('images/snare.png') }}" alt="snare"> --}}
+                    {{-- </div> --}}
                     <div class="title">
-                        <h2>Snare Drum</h2>
+                        <h2>Bass Habsyi</h2>
                     </div>
                     <div class="description">
                         <ul id="spesifikasi1" class="spesifikasi">
@@ -52,11 +53,11 @@
                     <div class="number">
                         <p>#dua</p>
                     </div>
-                    <div class="img">
+                    {{-- <div class="img">
                         <img src="{{ asset('images/Tenor drum.png') }}" alt="Tenor">
-                    </div>
+                    </div> --}}
                     <div class="title">
-                        <h2>Tenor Drum</h2>
+                        <h2>Darbuka cor alumunium</h2>
                     </div>
                     <div class="description">
                         <ul id="spesifikasi2" class="spesifikasi">
@@ -81,11 +82,11 @@
                     <div class="number">
                         <p>#tiga</p>
                     </div>
-                    <div class="img">
+                    {{-- <div class="img">
                         <img src="{{ asset('images/bass drum.png') }}" alt="Bass">
-                    </div>
+                    </div> --}}
                     <div class="title">
-                        <h2>Bass Drum</h2>
+                        <h2>hadroh</h2>
                     </div>
                     <div class="description">
                         <ul id="spesifikasi3" class="spesifikasi">
@@ -111,11 +112,11 @@
                     <div class="number">
                         <p>#empat</p>
                     </div>
-                    <div class="img">
+                    {{-- <div class="img">
                         <img src="{{ asset('images/quarto.png') }}" alt="snare">
-                    </div>
+                    </div> --}}
                     <div class="title">
-                        <h2>Quarto</h2>
+                        <h2>Tam mika stell</h2>
                     </div>
                     <div class="description">
                         <ul id="spesifikasi4" class="spesifikasi">
@@ -140,11 +141,11 @@
                     <div class="number">
                         <p>#lima</p>
                     </div>
-                    <div class="img">
+                    {{-- <div class="img">
                         <img src="{{ asset('images/marching_bell.png') }}" alt="marching_bell">
-                    </div>
+                    </div> --}}
                     <div class="title">
-                        <h2>Marching Bell</h2>
+                        <h2>Keprak</h2>
                     </div>
                     <div class="description">
                         <ul id="spesifikasi5" class="spesifikasi">
@@ -163,83 +164,9 @@
                         <button onclick="sendMessageToWhatsApp('marching_bell')">Pesan</button>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="number">
-                        <p>#enam</p>
-                    </div>
-                    <div class="img">
-                        <img src="{{ asset('images/mayoret.png') }}" alt="mayoret">
-                    </div>
-                    <div class="title">
-                        <h2>Stick Mayoret</h2>
-                    </div>
-                    <div class="description">
-                        <ul id="spesifikasi6" class="spesifikasi">
-                            <li>Panjang : 90 - 150 cm</li>
-                            <li>Berat : Approx. 2,25 pounds (1.0206 kg)</li>
-                            <li>Wrapped with chain small cross on top of crown </li>
-                            <li>Colour : Chrome finish only</li>
-                         </ul>
-                    </div>
-                    <div class="btn-show">
-                        <button onclick="show('spesifikasi6')">Lihat Lebih Lengkap</button>
-                    </div>
-                    <div class="btn-pesan">
-                        <button onclick="sendMessageToWhatsApp('Stick Mayoret')">Pesan</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="number">
-                        <p>#tujuh</p>
-                    </div>
-                    <div class="img">
-                        <img src="{{ asset('images/cymbal.png') }}" alt="cymbal">
-                    </div>
-                    <div class="title">
-                        <h2>Cymbal</h2>
-                    </div>
-                    <div class="description">
-                        <ul id="spesifikasi7" class="spesifikasi">
-                            <li>Ukuran : Diameter 10", 12", 14"</li>
-                            <li>Warna : Silver</li>
-                            <li>Bahan : Campuran bronze 72%, Copper 28%, lin</li>
-                            <li>Brilliant finish</li>
-                            <li>Strap sintetis</li>
-                         </ul>
-                    </div>
-                    <div class="btn-show">
-                        <button onclick="show('spesifikasi7')">Lihat Lebih Lengkap</button>
-                    </div>
-                    <div class="btn-pesan">
-                        <button onclick="sendMessageToWhatsApp('Cymbal')">Pesan</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="number">
-                        <p>#delapan</p>
-                    </div>
-                    <div class="img">
-                        <img src="{{ asset('images/pianika.png') }}" alt="pianika">
-                    </div>
-                    <div class="title">
-                        <h2>Pianika</h2>
-                    </div>
-                    <div class="description">
-                        <ul id="spesifikasi8" class="spesifikasi">
-                            <li>32 Keys</li>
-                            <li>Mouthpiece & Extension pipe set</li>
-                         </ul>
-                    </div>
-                    <div class="btn-show">
-                        <button onclick="show('spesifikasi8')">Lihat Lebih Lengkap</button>
-                    </div>
-                    <div class="btn-pesan">
-                        <button onclick="sendMessageToWhatsApp('Pianika')">Pesan</button>
-                    </div>
-                </div>
             </div>
+            <br><br>
         </section>
-        
     </main>
     <footer>
         <p>Izuzu Music &trade; <sup>&copy;</sup> 2024. Hak Cipta Dilindungi.</p>

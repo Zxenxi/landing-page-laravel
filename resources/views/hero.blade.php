@@ -1,7 +1,7 @@
 <div class="hero">
     <div class="text">
-        <h1>Selamat Datang di Izuzu Music</h1>
-        <p>Tempat Anda untuk Mencari Alat Marching Band Berkualitas</p>
+        <h1>Selamat Datang di Izuzu Music Percussion </h1>
+        {{-- <p>Tempat Anda untuk Mencari Alat Marching Band Berkualitas</p> --}}
         <div class="btnHero">
             <a href="#produk">
                 <button>Lihat Produk Kami</button>
